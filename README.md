@@ -4,7 +4,7 @@ Adding some CSS animations soon
 
 ## deployed link
 deployed using netlify :
-https://app.netlify.com/sites/sprightly-phoenix-86406c
+https://sprightly-phoenix-86406c.netlify.app/
 
 ## features
 In this project you can go through the slides and also add your comment
