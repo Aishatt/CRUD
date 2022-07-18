@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social media app</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+</head>
+<body>
+     <div id="top">
+
+  
+   <h1>An enormous Storehouse of Pastry Facts</h1>
+    <p>SusieCakes does a fantastic job of presenting its brand with a minimalistic and classy approach. The brand colors are being utilized throughout the website and menu in such a way that it makes the whole website very visually appealing.
+    </p>     
+    </div>
+    
+  
+
+   <div id="container">
+    <div id="slide">
+     
+    <button class="arrow" id="left"> < </button>
+    <button class="arrow"  id="right"> > </button>
+   </div>
+  </div>
+   
+   
+<div class="container">
+    <!---left-->
+    <div class="left">
+         <div class="rating">
+        <input type="radio" name="rating" value="5" id="5"> <label for="5"></label>
+        <input type="radio" name="rating" value="4" id="4"> <label for="4"></label>
+        <input type="radio" name="rating" value="3" id="3"> <label for="3"></label>
+        <input type="radio" name="rating" value="2" id="2"> <label for="2"></label>
+        <input type="radio" name="rating" value="1" id="1"> <label for="1"></label>
+    </div>
+    <form id="form">
+        <label for="post">Add a post</label><br><br>
+       <textarea placeholder="what is your view?"  name="text" id="input" cols="30" rows="10"></textarea>
+       <div id="msg"></div> 
+       <button id="post" type="submit">Post</button>
+</form>
+    </div>
+
+   <!---righr-->
+    <div class="right">
+        <h3>Your posts here</h3>
+        <div id="posts">
+           
+            <div class="posts-here">
+                <p>hi</p>
+                <span class="options">
+                  <i onClick="editPost(this)" class="fas fa-edit"></i>
+                  <i onClick="deletePost(this)" class="fas fa-trash-alt"></i>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="main.js"></script>
+</body>
+</html>
